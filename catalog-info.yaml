@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sgupta-service
+  description: sg demo service
+  annotations:
+    github.com/project-slug: SunilGuptaPersonal/sgupta-service
+spec:
+  type: service
+  owner: team-a
+  lifecycle: experimental
